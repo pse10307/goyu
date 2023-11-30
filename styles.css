@@ -1,0 +1,590 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 50px; /* Adjust this value based on the height of your footer */
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+/*header.php*/
+
+#web_logo {
+    font-style: bold;
+    margin:auto 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* 왼쪽과 오른쪽에 내용을 정렬 */
+    align-items: center;
+    padding: 0px;
+    height: 30px;
+}
+
+.header img {
+    width: 25px; /* 이미지의 너비 */
+    height: 25px; /* 이미지의 높이 */
+    margin-left: 5px; /* 이미지의 왼쪽 마진 */
+}
+
+
+.right-align {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.login_href a{
+    text-decoration-line: none;
+    color: black;
+}
+
+
+img.absol_1{
+    width: 21px;
+    height: 16px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+img.absol_3{
+    width: 25px;
+    height: 20px;
+    margin-top: 4px;
+}
+
+.content {
+    display: flex;
+    text-align: center;
+    height: 50px
+}
+
+.content.mid {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 500px; /* 좌우에 20px의 마진을 추가 */
+    margin-top: 0px;
+}
+
+.item {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.item.one figure {
+    margin-top: 3px;
+}
+
+
+
+
+.item img {
+    width: 30px; /* 이미지의 너비를 조절하세요 */
+    height: 30px; /* 이미지의 높이를 조절하세요 */
+}
+
+
+.item figure {
+    text-align: center; /* Optional: Center the figure */
+}
+
+.item figcaption {
+    font-size: 12px; /* Adjust the font size as needed */
+    margin-top: 8px; /* Optional: Add some top margin for spacing */
+}
+
+
+
+.mid {
+    flex-direction: row;
+}
+
+.one{
+    flex: 1;
+}
+
+/* index.php */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+
+.main {
+    position: relative;
+    top: 30px;
+    margin: 0;
+    max-width:1380px;
+    width: 48%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    height: 270px;
+}
+.main h3 {
+    margin: 10px 5px;
+}
+.main input[type=radio] {
+    display: none;
+}
+#tab-1:checked ~ .tab label:nth-child(1),
+#tab-2:checked ~ .tab label:nth-child(2),
+#tab-3:checked ~ .tab label:nth-child(3),
+#tab-5:checked ~ .tab label:nth-child(1),
+#tab-6:checked ~ .tab label:nth-child(2),
+#tab-7:checked ~ .tab label:nth-child(3) {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: none;
+}
+.post_taps > div {
+    display: none;
+}
+#tab-1:checked ~ .post_taps div:nth-child(1),
+#tab-2:checked ~ .post_taps div:nth-child(2),
+#tab-3:checked ~ .post_taps div:nth-child(3),
+#tab-5:checked ~ .post_taps div:nth-child(1),
+#tab-6:checked ~ .post_taps div:nth-child(2),
+#tab-7:checked ~ .post_taps div:nth-child(3) {
+    display: block;
+}
+
+.tab {
+  overflow: hidden;
+
+}
+.tab label {
+    font-size: 15px;
+    cursor: pointer;
+    float: left;
+    width: 33.33%;
+    height: 20px;
+    text-align: center;
+    padding: 15px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.post_taps {
+  height: 200px;
+
+}
+.post_taps > div{
+   padding: 30px;
+   line-height: 1.5;
+   font-size: 17px;
+}
+.post {
+    border-collapse: collapse; 
+    width: 95%;
+    height: 90%;
+    margin: auto;
+}
+
+.post th {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    width: 80%;
+    font-size: 14px;
+}
+.post td {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    text-align: center;
+    font-size: 14px;
+}
+
+.mid-container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.sitemethod {
+    position: relative;
+    top: 45px;
+    margin: 0;
+    max-width:1380px;
+    width: 48%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    height: 270px;
+}
+
+.slide {
+    position: relative;
+    top: 45px;
+    margin: 0;
+    max-width:1380px;
+    width: 48%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    height: 270px;
+}
+
+#container {
+    width: 100%; /* 부모 요소인 .slide-container에 맞게 넓이를 100%로 조절 */
+    height: 100%; /* 부모 요소인 .slide-container에 맞게 높이를 100%로 조절 */
+}
+
+.img {
+    width: 100%; /* 이미지의 크기를 부모 요소인 #container에 맞게 조절 */
+    height: 100%; /* 이미지의 크기를 부모 요소인 #container에 맞게 조절 */
+    object-fit: cover; /* 이미지가 늘어지지 않고 가로세로 비율을 유지하도록 함 */
+}
+
+.bot-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 15px;
+}
+
+
+.helpsite {
+    position: relative;
+    top: 60px;
+    margin: 0;
+    width:96%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    height: 555px;
+}
+
+
+/* signup.php */
+
+.signup-table {
+    border-collapse: collapse; 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    position: relative;
+}
+
+.signup-table caption {
+    float: left;
+    margin-left: 3px;
+}
+
+.signup-table th {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px; 
+    background-color: #f2f2f2;
+}
+
+.signup-table td {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    padding: 10px; 
+}
+
+.signup-table input {
+    size: 20;
+}
+
+.signup-table p {
+    font-size: 12px;
+    margin:0;
+    padding-top: 5px;
+}
+
+.create {
+    width: 8%;
+    margin: auto;
+}
+
+.but3 {
+    width: 100%;
+    height: 35px;
+    margin: auto;
+    top: 140px;
+    position: relative;
+    display: block;
+}
+
+/*mypage.php*/
+
+.member_info {
+    border-collapse: collapse; 
+    width: 30%;
+    margin-left: 20px;
+    margin-right: auto;
+    border:3px solid;
+}
+.member_info h3 {
+    margin-left: 10px;
+}
+
+.member_info th, .member_info td {
+    padding: 10px; 
+}
+
+.member_info th {
+    text-align: left;
+}
+
+.col1 {
+    width: 280px;
+}
+
+.col2 {
+    width: 150px;
+}
+
+/*login.php*/
+.logintoindex {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logintoindex img {
+    width: 300px;
+    height: 90px;
+}
+
+.login {
+    width: 20%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 30px auto 5px;
+}
+
+.container {
+    width: 239px; /* 원하는 너비로 조정하세요. */
+    height: 150px; /* 원하는 높이로 조정하세요. */
+}
+
+.logo {
+    margin: 15px 0px;
+}
+
+#id {
+    display: block;
+    margin-bottom: 7px;
+    padding: 3px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    width: 221px;
+    height: 25px;
+}
+
+#password {
+    display: block;
+    margin-bottom: 7px;
+    padding: 3px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    width: 221px;
+    height: 25px;
+}
+
+#login {
+    margin:20px auto;
+    width: 226px;
+    height: 30px;
+    padding: 0;
+}
+
+#alert {
+    border-color: transparent;
+}
+
+a {
+    font-size: 13px;
+    text-align: center;
+    text-decoration-line: none;
+    color: black;
+}
+
+.login_etc {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/*findpw*/
+.findpwtoindex {
+    text-align: center;
+}
+
+.findpwtoindex img {
+    width: 200px;
+    height: 90px;
+    margin-top: 50px;
+}
+
+.findpw {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 30px auto 5px;
+}
+
+#input_id {
+    display: block;
+    margin: 15px 0;
+    padding: 3px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    width: 321px;
+    height: 50px;
+    font-size: 15px;
+}
+
+#findpw_next {
+    margin:15px 0;
+    width: 326px;
+    height: 55px;
+    padding: 0;
+    font-size: 15px;
+}
+
+.findpw_etc {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+/*verify-table*/
+
+.verify-table {
+    border-collapse: collapse; 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    position: relative;
+}
+
+.verify-table caption {
+    float: left;
+    margin-left: 3px;
+}
+
+.verify-table th {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px; 
+    background-color: #f2f2f2;
+}
+
+.verify-table td {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    padding: 10px; 
+}
+
+.verify-table input {
+    size: 20;
+}
+
+.verify_next {
+    width: 8%;
+    margin: auto;
+}
+
+.verify_next_but {
+    width: 100%;
+    height: 35px;
+    margin: auto;
+    top: 140px;
+    position: relative;
+    display: block;
+}
+
+/*pwrest*/
+.pwrest-table {
+    border-collapse: collapse; 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    position: relative;
+}
+
+.pwrest-table caption {
+    float: left;
+    margin-left: 3px;
+}
+
+.pwrest-table th {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px; 
+    background-color: #f2f2f2;
+}
+
+.pwrest-table td {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    padding: 10px; 
+}
+
+.pwrest-table input {
+    size: 20;
+}
+
+.end_findpw {
+    width: 8%;
+    margin: auto;
+}
+
+.end_findpw_but {
+    width: 100%;
+    height: 35px;
+    margin: auto;
+    top: 140px;
+    position: relative;
+    display: block;
+}
