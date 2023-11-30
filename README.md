@@ -1,3 +1,7 @@
 # goyu
 add chae
-seojin' test
+seojin' test  
+hello our project
+
+
+nah! 
