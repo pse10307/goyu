@@ -1,12 +1,17 @@
-<div id="container">
-    <img class="img" src='https://ifh.cc/g/Lm33rl.png'/>
-    <img class="img" src="https://cdn.pixabay.com/photo/2017/05/08/13/15/bird-2295431_1280.jpg" />
-    <img class="img" src="https://cdn.pixabay.com/photo/2020/12/30/14/23/waterfall-5873630_1280.jpg" />
-
+<div class="slide-container">
+    <div class="slide_auto">
+<!--       <img class="slide" src='../images/thumbnail/tn_1.jpg'/> -->
+    </div>  
+    <div class="slide_auto">
+<!--       <img class="slide" src="../images/thumbnail/tn_2.jpg" /> -->
+    </div>
+    <div class="slide_auto">
+<!--       <img class="slide" src="../images/thumbnail/tn_3.jpg" /> -->
+    </div>
 </div>
 
-<script>
-    const images = document.querySelectorAll('.img');
+<!-- <script>
+    const images = document.querySelectorAll('.slide');
     let current = 0;
 
     function showSlide() {
@@ -22,5 +27,5 @@
     }
 
     showSlide();
-  </script>
+  </script> -->
 
